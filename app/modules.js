@@ -1,5 +1,5 @@
 var sqlite3 =require('sqlite3').verbose();
-var db = new sqlite3.Database(data.db);
+var db = new sqlite3.Database(data_teams.db);
 
 //Functions to get player info by team name
 
