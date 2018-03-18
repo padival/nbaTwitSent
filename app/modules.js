@@ -3,7 +3,7 @@ var db = new sqlite3.Database(data_teams.db);
 
 //Functions to get player info by team name
 
-exports.getPlayerName = function (var teamName) {
+exports.getPlayerNames = function (var teamName) {
 	var names = [];
 	db.serialize(function () {
 		db.each("SELECT name FROM players WHERE team="+teamName, function(err, row) {
