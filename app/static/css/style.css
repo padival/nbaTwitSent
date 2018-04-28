@@ -3100,3 +3100,19 @@ p.sign {
 	}
 	
 }
+
+/*tweets style */
+
+dt{
+	margin-bottom: 10px;
+
+	border:1px solid grey;
+}
+#list1{
+	font-size:18px;
+
+}
+#list2{
+	font-size:13px
+}
+
